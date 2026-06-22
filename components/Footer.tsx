@@ -8,9 +8,8 @@ export default function Footer() {
           <p>© 2026 Smart Dispatch</p>
 
           <div className="flex gap-6">
-            <a href="#" className="hover:text-teal-300 transition">Features</a>
-            <a href="#" className="hover:text-teal-300 transition">Privacy</a>
-            <a href="#" className="hover:text-teal-300 transition">Contact</a>
+            <a href="#features" className="hover:text-teal-300 transition">Features</a>
+            <a href="#contact" className="hover:text-teal-300 transition">Contact</a>
           </div>
 
         </div>
