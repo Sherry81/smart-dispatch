@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Buildstone Smart Dispatch",
     description:
       "A powerful dispatch system for construction teams to automate job assignment, optimize routes, and track field operations in real time.",
-    url: "https://buildstone.com/smart-dispatch",
+    url: "https://smart-dispatch-chi.vercel.app/",
     siteName: "Buildstone",
     images: [
       {
