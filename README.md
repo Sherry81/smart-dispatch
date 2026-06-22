@@ -14,23 +14,17 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Overview
+This project is a responsive landing page for the upcoming Smart Dispatch feature, built with Next.js, TypeScript, and Tailwind CSS. The page includes a hero section, feature highlights, and a lead capture form designed to support the upcoming marketing campaign.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Technical Decision
+I chose to split the landing page into small, reusable components (Hero, Features, Lead Form, Footer, and Dashboard Preview) rather than building everything in a single page component. This keeps the codebase maintainable, makes individual sections easier to test and update, and better reflects how marketing pages typically evolve over time.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+What I Would Do With More Time
+• Add subtle animations and transitions to improve user engagement.
+• Improve accessibility with additional keyboard navigation and screen reader testing.
+• Add analytics tracking for CTA clicks and form submissions.
+• Integrate the lead capture form with a backend service and validation layer.
+• Expand the Open Graph implementation with custom social sharing images.
